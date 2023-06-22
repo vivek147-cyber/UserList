@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL="http://127.0.0.1:3001/users";
+const API_URL="https://rest-api-pd7z.onrender.com/users";
 
 export const adduser = async (data)=>{
      try {
