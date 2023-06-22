@@ -1,0 +1,117 @@
+.table-container {
+  width: 100%;
+  padding: 36px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-spacing: 51px 21px;
+  border-collapse: separate;
+  margin-bottom: 20px;
+  
+}
+
+.add-btn {
+  padding: 10px 20px;
+  background-color: #a2a5ff;
+  color: white;
+  border: none;
+  border-radius: 26px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.update {
+  background-color: #a2a5ff;
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.delete {
+  background-color: #fd7878;
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
+th,
+td,tr {
+  padding: 10px;
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+th {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f2f2f2;
+}
+
+
+.delete-btn,
+.update-btn {
+  background: none;
+  text-decoration: none;
+  border: none;
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.delete-btn::before,
+.update-btn::before {
+  content: "";
+  display: inline-block;
+  text-decoration: none;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle;
+  background-repeat: no-repeat;
+}
+
+link{
+  text-decoration: none;
+}
+
+/* .delete-btn::before {
+  background-image: url('delete-icon.png'); 
+}
+
+.update-btn::before {
+  background-image: url('update-icon.png'); 
+} */
+
+@media (max-width: 767px) {
+  .table-container {
+    display: flex;
+    overflow-x: auto;
+    padding: 23px!important;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  th,
+  td {
+    padding: 8px;
+    font-size: 12px;
+  }
+
+
+  .delete-btn::before,
+  .update-btn::before {
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+  }
+}

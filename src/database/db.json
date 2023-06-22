@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "name": "Vivek singh",
+      "email": "Vivek@gmail.com",
+      "phone": "9876543212",
+      "id": 1
+    },
+    {
+      "name": "vivek singh",
+      "email": "viveksingh.cr7bale@gmail.com",
+      "phone": "06387218122",
+      "id": 5
+    },
+    {
+      "name": "vivek singh",
+      "email": "viveksingh.cr7bale@gmail.com",
+      "phone": "6387218122",
+      "id": 7
+    },
+    {
+      "name": "vivek singh",
+      "email": "viveksingh.cr7bale@gmail.com",
+      "phone": "9387218122",
+      "id": 8
+    },
+    {
+      "name": "vivek",
+      "email": "vivi141379@gmail.com",
+      "phone": "6387218122",
+      "id": 9
+    },
+    {
+      "name": "vivek singh",
+      "email": "viveksingh.cr7bale@gmail.com",
+      "phone": "6387218122",
+      "id": 10
+    }
+  ]
+}
